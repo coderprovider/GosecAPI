@@ -4,7 +4,7 @@ import (
 	"github.com/cetinboran/gosecAPI/api"
 	"github.com/gofiber/fiber/v2"
 )
-
+	
 func SetRouters(app *fiber.App) {
 	Users := app.Group("/users")
 
